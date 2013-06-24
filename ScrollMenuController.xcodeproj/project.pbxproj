@@ -21,6 +21,8 @@
 		40F7DCF5177794D3006E6D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F7DCD6177794D2006E6D23 /* Foundation.framework */; };
 		40F7DCFD177794D3006E6D23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F7DCFB177794D3006E6D23 /* InfoPlist.strings */; };
 		40F7DD00177794D3006E6D23 /* ScrollMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7DCFF177794D3006E6D23 /* ScrollMenuControllerTests.m */; };
+		40F7DD0B17779511006E6D23 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7DD0A17779511006E6D23 /* MainViewController.m */; };
+		40F7DD0E1777952E006E6D23 /* ScrollMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7DD0D1777952E006E6D23 /* ScrollMenuBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		40F7DCFC177794D3006E6D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40F7DCFE177794D3006E6D23 /* ScrollMenuControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollMenuControllerTests.h; sourceTree = "<group>"; };
 		40F7DCFF177794D3006E6D23 /* ScrollMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuControllerTests.m; sourceTree = "<group>"; };
+		40F7DD0917779511006E6D23 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		40F7DD0A17779511006E6D23 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		40F7DD0C1777952E006E6D23 /* ScrollMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollMenuBar.h; sourceTree = "<group>"; };
+		40F7DD0D1777952E006E6D23 /* ScrollMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				40F7DCE3177794D2006E6D23 /* AppDelegate.h */,
 				40F7DCE4177794D2006E6D23 /* AppDelegate.m */,
+				40F7DD0917779511006E6D23 /* MainViewController.h */,
+				40F7DD0A17779511006E6D23 /* MainViewController.m */,
+				40F7DD0C1777952E006E6D23 /* ScrollMenuBar.h */,
+				40F7DD0D1777952E006E6D23 /* ScrollMenuBar.m */,
 				40F7DCDB177794D2006E6D23 /* Supporting Files */,
 			);
 			path = ScrollMenuController;
@@ -263,6 +273,8 @@
 			files = (
 				40F7DCE1177794D2006E6D23 /* main.m in Sources */,
 				40F7DCE5177794D2006E6D23 /* AppDelegate.m in Sources */,
+				40F7DD0B17779511006E6D23 /* MainViewController.m in Sources */,
+				40F7DD0E1777952E006E6D23 /* ScrollMenuBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
